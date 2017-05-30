@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const commando = require('discord.js-commando')
+const commando = require('discord.js-commando');
 
 const client = new Discord.Client();
 const bot = new commando.Client();
@@ -151,6 +151,7 @@ client.on('message', Message => {
     }
 });
 
+console.log('hello world');
 
 /*
 *
@@ -181,7 +182,7 @@ client.on('guildMemberAdd', member => {
 
 });
 
-// this says good bye to users once they're kicked
+// // this says good bye to users once they're kicked
  client.on('guildMemberRemove', member => {
   let guild = member.guild;
   guild.defaultChannel.send(`Please say goodbye to ${member.user} we will miss you!`);
