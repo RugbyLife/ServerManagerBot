@@ -2,11 +2,15 @@
 This is a bot to manage the Swarmio Discord Server
 
 # How to run the bot:
-1) First you need node version 7.0 or higher
-2) Then you need to install pm2 in-order to make changes to the bots code without having to stop and restart it
-3) To run the bot using pm2 type: pm2 start swarmiobot.js
+1) First you need node version 7.0 or higher.
+2) Then you need to install pm2 in-order to make changes to the bots code without having to stop and restart it.
+3) To run the bot using pm2 type: pm2 start swarmiobot.js.
 
-
+# List of commands and functions so far:
+1) Anti-Spam.
+2) Sends them a link to the tournament page.
+3) Tells them if the Minecraft server is up.
+4) 
 
 ## Configuration (optional)
 `config/settings.json` contains settings for the bot. The settings are server (guild) specific. If the used server cannot be found from the settings, default settings will be used instead.
