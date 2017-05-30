@@ -10,7 +10,8 @@ This is a bot to manage the Swarmio Discord Server
 1) Anti-Spam.
 2) Sends them a link to the tournament page.
 3) Tells them if the Minecraft server is up.
-4) 
+4) Sends them a welcome message, both private and in the general chat when they join the server.
+5) 
 
 ## Configuration (optional)
 `config/settings.json` contains settings for the bot. The settings are server (guild) specific. If the used server cannot be found from the settings, default settings will be used instead.
