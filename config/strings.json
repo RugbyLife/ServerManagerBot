@@ -1,0 +1,48 @@
+{
+  "name": "Baneling",
+  "util": {
+    "antispam": {
+      "success_0": "Ha, a spammer got muted. ",
+      "success_1": " was muted for spamming.",
+      "warning_0": "stop spamming or I'll put you in the time out zone."
+    }
+  },
+  "commands": {
+    "version": {
+      "success_0": "Swarmiobot v-1.0.0."
+    },
+    "about": {
+      "success_0": "I didn't choose the bot life, the bot life choose me."
+    },
+    "mention": {
+      "success_0": [
+        "Yes, sire?",
+        "Do you await some ominous sign or portent from the Undergods of Fire and Soil?",
+        "It is the Witching Hour. Curses are half-price.",
+        "Hic! People demand cakesh and fine winesh.",
+        "Micro-piglets stalk this server. Beware!",
+        "Let's party like it's 2017!"
+      ]
+    },
+    "ping": {
+      "success_0": "pong in ",
+      "success_1": " ms."
+    },
+    "select": {
+      "success_0": "The following ",
+      "success_1": " have been selected:",
+      "fail_0": "Nonsense! First type select and then the amount of members to select. e.g. `select 6`.",
+      "fail_1": "Really? You want me to select from zero users? Well, here they are: ",
+      "fail_2": "Emm... It's a bit empty here.",
+      "fail_3": "This is a private chat, remember? I'm not selecting anyone.",
+      "name_strings": ["minions", "peasants", "dwarfs", "elves", "hairy beasts", "imps"]
+    },
+    "say": {
+      "success_0": "Okay, I'll say it.",
+      "fail_0": "Your message is invalid. Your message's length can be 16 words at max and have no special characters.",
+      "fail_1": "What's the point? You just said it.",
+      "fail_2": "The second parameter should be the targeted channel or server. eg. `say 123123123123 hey there!`",
+      "fail_3": "Could not find a such channel."
+    }
+  }
+}

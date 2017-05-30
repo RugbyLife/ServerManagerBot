@@ -1,0 +1,10 @@
+{
+  "command_mapping": {
+    "default": "mention",
+    "about": "about",
+    "ping": "ping",
+    "select": "select",
+    "version": "version",
+    "say": "say"
+  }
+}
