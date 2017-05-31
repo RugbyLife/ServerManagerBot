@@ -113,13 +113,14 @@ client.on('message', Message => {
                 // Mute the filthy peasant.
                 const target = Message.member;
                 if (Mute.execute(target)) {
-                    // Mute successful.
-                    if (!settingsContainer['enable_quiet_mode']) {
-                        Message.channel.send(`${Strings.util.antispam.success_0}` +
-                            `${target.user.username}` +
-                            `${Strings.util.antispam.success_1}`);
+                  // Ban successful.
+                  if (!settingsContainer['enable_quiet_mode']) {
+                    Message.channel.send(`${Strings.util.antispam.success_0}` +
+                      `${target.user.username}` +
+                      `${Strings.util.antispam.success_1}`);
                     }
-                }
+                    AntiSpam.clearUserHistory(sourceId, Message.author.id);
+                  }
             }
 
             // Client commands.
@@ -178,7 +179,7 @@ client.on('guildMemberAdd', member => {
   let guild = member.guild;
   guild.defaultChannel.send(`Please welcome ${member.user} to the server!`);
 
-  member.send('Welcome to the server. Please check the rules and the  latest announcements channel ');
+  member.send('Welcome to the server. Please read the pinned rules in the #announcements channel as soon as possible. We are excited to have you here! ');
 
 });
 
