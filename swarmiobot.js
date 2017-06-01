@@ -119,7 +119,7 @@ client.on('message', Message => {
                       `${target.user.username}` +
                       `${Strings.util.antispam.success_1}`);
                     }
-                    AntiSpam.clearUserHistory(sourceId, Message.author.id);
+                  AntiSpam.clearUserHistory(sourceId, Message.author.id);
                   }
             }
 

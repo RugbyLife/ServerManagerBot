@@ -1,4 +1,3 @@
-//this is the mute command
 module.exports = () => {
 
     const module = {};
@@ -12,6 +11,7 @@ module.exports = () => {
             console.log(`Mute of ${target.user.username} failed: ${reason}`);
             return false;
         });
+        return true;
     };
 
     return module;

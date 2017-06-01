@@ -124,7 +124,7 @@ module.exports = () => {
      * @param messageObject
      * @param settingsContainer
      */
-    module.isSpam = (uId, gId, messageObject, settingsContainer) => {
+  module.isSpam = (gId, uId, messageObject, settingsContainer) => {
 
         // By default nothing is spam.
         let spam = false;
