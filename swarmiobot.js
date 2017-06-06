@@ -113,7 +113,7 @@ client.on('message', Message => {
                 // Mute the filthy peasant.
                 const target = Message.member;
                 if (Mute.execute(target)) {
-                  // Ban successful.
+                  // Mute successful.
                   if (!settingsContainer['enable_quiet_mode']) {
                     Message.channel.send(`${Strings.util.antispam.success_0}` +
                       `${target.user.username}` +
