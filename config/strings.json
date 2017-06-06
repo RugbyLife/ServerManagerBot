@@ -4,7 +4,8 @@
     "antispam": {
       "success_0": "Ha, a spammer got muted. ",
       "success_1": " was muted for spamming.",
-      "warning_0": "stop spamming or I'll put you in the time out zone."
+      "warning_0": "stop spamming or I'll punish you.",
+      "warning_1": "Thats it. Timeout."
     }
   },
   "commands": {

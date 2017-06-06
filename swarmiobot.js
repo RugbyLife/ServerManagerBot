@@ -42,7 +42,7 @@ client.on('ready', () => {
     if (client.guilds.array().length > MAX_SERVERS) {
         console.log(`Too many concurrent servers (${client.guilds.array().length > 16}).`);
         console.log(`Servers are limited because anti spam features must stay efficient.`);
-        console.log(`If you'd like to bypass this check, see tunneler.js or make an another Application.`);
+        console.log(`If you'd like to bypass this check, see swarmiobot.js or make an another Application.`);
         console.log('Closing down...');
         process.exit(1);
     } else {
