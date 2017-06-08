@@ -17,4 +17,4 @@ class streamerCommand extends commando.Command{
   }
 }
 
-module.exports = streamer;
+module.exports = streamerCommand;

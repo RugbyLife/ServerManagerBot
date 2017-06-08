@@ -7,12 +7,12 @@ class serverInfo extends commando.Command{
   constructor(client){
 
     super(client, {
-      name: serverinfo,
-      group: random,
-      memberName: serverinfo,
-      description: 'This command displays the number of people in the server'
-￼     });
-
+      name: 'serverinfo',
+      group: 'random',
+      memberName: 'serverinfo',
+      description: 'displays the server data'
+    });
+  }
 
   async run(message, args){
 
