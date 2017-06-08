@@ -13,6 +13,8 @@ class streamerCommand extends commando.Command{
   }
   async run(message, args){
 
-    
+
   }
 }
+
+module.exports = streamer;

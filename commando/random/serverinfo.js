@@ -18,3 +18,5 @@ class serverInfo extends commando.Command{
 
   }
 }
+
+module.exports = serverInfo;
