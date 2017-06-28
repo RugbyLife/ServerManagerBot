@@ -47,6 +47,10 @@ module.exports = () => {
         return new RegExp("([a-zA-Z0-9]+://)?([a-zA-Z0-9_]+:[a-zA-Z0-9_]+@)?([a-zA-Z0-9.-]+\\.[A-Za-z]{2,4})(:[0-9]+)?(/.*)?").test(String(str));
     };
 
+    module.isMessage = (str) => {
+        return new RegExp("([a-zA-Z0-9_])").test(String(str));
+    };
+
     /**
      * Returns a count of identical links in a single message.
      * @param message
@@ -101,6 +105,25 @@ module.exports = () => {
     };
 
     /**
+     * Returns a count of identical words in a single message.
+     * @param message
+     * @returns {R|number|*|any|any|number|*|R}
+     */
+    module.getMessageIdenticalMessagesCount = (message) => {
+        const messages = [];
+        let count = 0;
+        const words = message.split(" ");
+        words.forEach((word) => {
+            if (module.isMessage(word)) {
+                messages.push(word);
+                const occurrences = module.getOccurrences(messages, word);
+                count = occurrences > count ? occurrences : count;
+            }
+        });
+        return count;
+    };
+
+    /**
      * Clears user's history.
      * @param gId
      * @param uId
@@ -146,6 +169,7 @@ module.exports = () => {
             messageLog = messageLog.set(gId, guildLog);
             // Consider whether the user has spammed or not.
             spam = module.getMessageIdenticalLinksCount(message) > settingsContainer['anti_spam_max_identical_urls_in_message'] ||
+                module.getMessageIdenticalMessagesCount(message) > settingsContainer['anti_spam_max_identical_messages_in_message'] ||
                 module.getTotalIdenticalLinksCount(userLog) > settingsContainer['anti_spam_max_identical_urls_in_total'] ||
                 module.getTotalIdenticalMessagesCount(userLog) > settingsContainer['anti_spam_max_identical_messages_total'];
         }

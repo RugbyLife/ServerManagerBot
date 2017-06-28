@@ -45,7 +45,7 @@ client.on('ready', () => {
         console.log(`If you'd like to bypass this check, see swarmiobot.js or make an another Application.`);
         console.log('Closing down...');
         process.exit(1);
-    } else {
+    }else {
         console.log(`Successfully logged in as ${client.user.username}.`);
         console.log(`Serving ${client.guilds.array().length} server(s).`);
     }
@@ -77,7 +77,7 @@ client.on('disconnected', () => {
  * On joining a new guild.
  */
 client.on('guildCreate', (guild) => {
-    console.log('Joined to a new guild: ', guild.name);
+    console:log('Joined to a new guild: ', guild.name);
     guildSettings.set(guild.id, Settings.getGuildSetting(guild.id));
 });
 
@@ -105,22 +105,27 @@ client.on('message', Message => {
                 : {};
 
             // Anti spam measures.
-            if (
-                settingsContainer !== undefined &&
+            if (settingsContainer !== undefined &&
                 settingsContainer['enable_anti_spam_filtering'] &&
                 AntiSpam.isSpam(sourceId, Message.author.id, Message, settingsContainer)
             ) {
                 // Mute the filthy peasant.
                 const target = Message.member;
-                if (Mute.execute(target)) {
-                  // Mute successful.
-                  if (!settingsContainer['enable_quiet_mode']) {
-                    Message.channel.send(`${Strings.util.antispam.success_0}` +
-                      `${target.user.username}` +
-                      `${Strings.util.antispam.success_1}`);
+
+                    if (Mute.execute(target)) {
+
+                        // Mute successful.
+                        if (!settingsContainer['enable_quiet_mode']) {
+                            Message.channel.send(`${Strings.util.antispam.success_0}` +
+                                `${target.user.username}` +
+                                `${Strings.util.antispam.success_1}`);
+                        }
+                        AntiSpam.clearUserHistory(sourceId, Message.author.id);
+
+                        setTimeout(() => {
+                            AntiSpam.clearUserHistory(sourceId, Message.author.id);
+                        },300000);
                     }
-                  AntiSpam.clearUserHistory(sourceId, Message.author.id);
-                  }
             }
 
             // Client commands.
@@ -152,8 +157,6 @@ client.on('message', Message => {
     }
 });
 
-console.log('hello world');
-
 /*
 *
 *---------------------------------------------------------
@@ -177,7 +180,7 @@ var prefix = "$";
 // this welcomes users to the server and sends them a personal message about the server
 client.on('guildMemberAdd', member => {
   let guild = member.guild;
-  guild.defaultChannel.send(`Please welcome ${member.user} to the server!`);
+      guild.defaultChannel.send(`Please welcome ${member.user} to the server!`);
 
   member.send('Welcome to the server. Please read the pinned rules in the #announcements channel as soon as possible. We are excited to have you here! ');
 
