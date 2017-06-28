@@ -19,7 +19,7 @@
       "enable_anti_spam_filtering": true,
       "enable_quiet_mode": true,
       "enable_client_commands": false,
-      "anti_spam_allow_unsafe_url_suffixes": true,
+      "anti_spam_allow_unsafe_url_suffixes": false,
       "anti_spam_log_length": 0,
       "anti_spam_max_identical_urls_in_message": 2,
       "anti_spam_max_identical_messages_in_message": 2,
