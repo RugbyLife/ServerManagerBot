@@ -4,7 +4,7 @@
     "307184039972962304": {
       "enable_anti_spam_filtering": true,
       "enable_quiet_mode": true,
-      "enable_client_commands": false,
+      "enable_client_commands": true,
       "anti_spam_allow_unsafe_url_suffixes": false,
       "anti_spam_log_length": 0,
       "anti_spam_max_identical_urls_in_message": 3,

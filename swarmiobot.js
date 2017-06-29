@@ -77,7 +77,7 @@ client.on('disconnected', () => {
  * On joining a new guild.
  */
 client.on('guildCreate', (guild) => {
-    console:log('Joined to a new guild: ', guild.name);
+    console.log('Joined to a new guild: ', guild.name);
     guildSettings.set(guild.id, Settings.getGuildSetting(guild.id));
 });
 
