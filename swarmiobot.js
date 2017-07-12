@@ -186,14 +186,6 @@ client.on('guildMemberAdd', member => {
 
 });
 
-// // this says good bye to users once they're kicked
- client.on('guildMemberRemove', member => {
-  let guild = member.guild;
-  guild.defaultChannel.send(`Please say goodbye to ${member.user} we will miss you!`);
-
-});
-
-
 // this is a purge command that deletes a certain number of messages in the channel its called
 client.on('message', message => {
 
