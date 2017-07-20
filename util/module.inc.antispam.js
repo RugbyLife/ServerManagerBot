@@ -114,10 +114,12 @@ module.exports = () => {
         let count = 0;
         const words = message.split(" ");
         words.forEach((word) => {
-            if (module.isMessage(word)) {
-                messages.push(word);
-                const occurrences = module.getOccurrences(messages, word);
-                count = occurrences > count ? occurrences : count;
+            for (var x = 0, y = 1; y < words.length; x++, y++)
+            {
+                if (words[x] === words[y])
+                {
+                    count++;
+                }
             }
         });
         return count;

@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/node_modules0/discord.js" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/node_modules0/discord.js-commando" vcs="Git" />
   </component>
 </project>

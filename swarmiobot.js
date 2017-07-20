@@ -26,6 +26,8 @@ const commands = {
     "say": require('./commands/module.inc.say')(client)
 };
 
+process.on('unhandledRejection', console.error);
+
 const MAX_SERVERS = 8;
 
 let guildSettings = new Immutable.Map({});
@@ -183,13 +185,6 @@ client.on('guildMemberAdd', member => {
       guild.defaultChannel.send(`Please welcome ${member.user} to the server!`);
 
   member.send('Welcome to the server. Please read the pinned rules in the #announcements channel as soon as possible. We are excited to have you here! ');
-
-});
-
-// // this says good bye to users once they're kicked
- client.on('guildMemberRemove', member => {
-  let guild = member.guild;
-  guild.defaultChannel.send(`Please say goodbye to ${member.user} we will miss you!`);
 
 });
 

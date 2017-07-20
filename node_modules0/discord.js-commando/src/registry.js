@@ -70,9 +70,13 @@ class CommandRegistry {
 	registerGroups(groups) {
 		if(!Array.isArray(groups)) throw new TypeError('Groups must be an Array.');
 		for(let group of groups) {
-			if(typeof group === 'function') group = new CommandGroup(this.client);
-			else if(Array.isArray(group)) group = new CommandGroup(this.client, ...group);
-			else if(!(group instanceof CommandGroup)) group = new CommandGroup(this, group.id, group.name, group.commands);
+			if(typeof group === 'function') {
+				group = new group(this.client); // eslint-disable-line new-cap
+			} else if(Array.isArray(group)) {
+				group = new CommandGroup(this.client, ...group);
+			} else if(!(group instanceof CommandGroup)) {
+				group = new CommandGroup(this.client, group.id, group.name, group.commands);
+			}
 
 			const existing = this.groups.get(group.id);
 			if(existing) {
@@ -160,7 +164,10 @@ class CommandRegistry {
 		const obj = require('require-all')(options);
 		const commands = [];
 		for(const group of Object.values(obj)) {
-			for(const command of Object.values(group)) commands.push(command);
+			for(let command of Object.values(group)) {
+				if(typeof command.default === 'function') command = command.default;
+				commands.push(command);
+			}
 		}
 		if(typeof options === 'string' && !this.commandsPath) this.commandsPath = options;
 		return this.registerCommands(commands);
