@@ -188,7 +188,6 @@ client.on('guildMemberAdd', member => {
 
 });
 
-
 // this is a purge command that deletes a certain number of messages in the channel its called
 client.on('message', message => {
 
