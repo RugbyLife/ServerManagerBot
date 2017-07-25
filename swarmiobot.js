@@ -1,8 +1,13 @@
 const Discord = require('discord.js');
 const commando = require('discord.js-commando');
+const path = require('path');
 
 const client = new Discord.Client();
-const bot = new commando.Client();
+const bot = new commando.Client({
+    commandPrefix: '!',
+    unknownCommandResponse: false,
+    disableEveryone: true
+});
 
 const Immutable = require('immutable');
 
@@ -168,14 +173,33 @@ client.on('message', Message => {
 
 
 
-//using commando client
-bot.registry.registerGroup('random', 'Random');
+bot.registry
+    .registerDefaultTypes()
+    .registerGroups([
+        ['random', 'Random']
+    ])
+    .registerDefaultGroups()
+    .registerDefaultCommands({
+        help: false
+    })
+    .registerCommandsIn(path.join(__dirname, 'commando'));
 
-//registers a few default commands
-bot.registry.registerDefaults();
+bot.on('ready', () => {
+    console.log('Logged in!');
+    bot.user.setGame('Game');
+});
 
-//creating each command in a seperate file
-bot.registry.registerCommandsIn(__dirname + "/commando");
+
+// //using commando client
+// bot.registry.registerGroup('random', 'Random');
+//
+// //registers a few default commands
+// bot.registry.registerDefaults({
+//     help: false
+// });
+//
+// //creating each command in a seperate file
+// bot.registry.registerCommandsIn(__dirname + "/commando");
 
 var prefix = "$";
 
@@ -202,3 +226,5 @@ client.on('message', message => {
       message.channel.fetchMessages({limit: messagecount}).then(messages => message.channel.bulkDelete(messages));
     }
 });
+
+

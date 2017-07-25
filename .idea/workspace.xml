@@ -2,267 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0759d5b1-5838-4a7a-be41-30bff6797413" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commando/random/giveMute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commando/random/warn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commando/random/help.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/commando/random/serverinfo.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/commando/random/streamer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/deploy/deploy.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/deploy/deploy_key.enc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/RESTMethods.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/pcm/ConverterEngine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/pcm/ConverterEngineList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/pcm/FfmpegConverterEngine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/player/BasePlayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/player/DefaultPlayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/ClientOAuth2Application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/EvaluatedPermissions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/RichEmbed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/interface/TextBasedChannel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/util/ArraysEqual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/util/CloneObject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/util/ConvertArrayBuffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/util/EscapeMarkdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/util/FetchRecommendedShards.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/util/MakeError.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/util/MakePlainError.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/util/MergeDefault.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/util/ParseEmoji.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/util/SplitMessage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/typings/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/typings/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/typings/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/typings/discord.js-test.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/typings/index.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/typings/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/typings/tsconfig.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules0/discord.js/typings/tslint.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/auth.json" afterPath="$PROJECT_DIR$/config/auth.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/settings.json" afterPath="$PROJECT_DIR$/config/settings.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/strings.json" afterPath="$PROJECT_DIR$/config/strings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/.eslintrc.json" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/.eslintrc.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/LICENSE" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/README.md" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/deploy/deploy.sh" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/deploy/deploy.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/docs/commands/builtins.md" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/docs/commands/builtins.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/docs/general/first-steps.md" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/docs/general/first-steps.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/docs/general/welcome.md" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/docs/general/welcome.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/docs/index.yml" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/docs/index.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/jsdoc.json" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/jsdoc.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/package.json" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/client.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/argument.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/argument.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/base.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/commands/disable.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/commands/disable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/commands/enable.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/commands/enable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/commands/groups.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/commands/groups.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/commands/load.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/commands/load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/commands/reload.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/commands/reload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/commands/unload.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/commands/unload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/group.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/group.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/message.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/util/eval.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/util/eval.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/util/help.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/util/help.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/util/ping.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/util/ping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/util/prefix.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/util/prefix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/dispatcher.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/dispatcher.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/errors/command-format.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/errors/command-format.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/errors/friendly.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/errors/friendly.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/extensions/guild.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/extensions/guild.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/index.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/providers/base.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/providers/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/providers/helper.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/providers/helper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/providers/sqlite.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/providers/sqlite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/registry.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/registry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/base.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/boolean.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/boolean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/channel.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/channel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/float.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/float.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/integer.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/integer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/member.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/member.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/message.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/role.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/role.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/string.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/string.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/user.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/types/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/src/util.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/src/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/test/bot.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/test/bot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/test/commands/math/add.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/test/commands/math/add.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/test/commands/util/split.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/test/commands/util/split.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js-commando/test/commands/util/user-info.js" afterPath="$PROJECT_DIR$/node_modules/discord.js-commando/test/commands/util/user-info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/discord.js/.tern-project" afterPath="$PROJECT_DIR$/node_modules/discord.js/.tern-project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/.eslintrc.json" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/.eslintrc.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/.travis.yml" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/LICENSE" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/README.md" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/deploy/deploy.sh" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/deploy/deploy.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/docs/commands/builtins.md" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/docs/commands/builtins.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/docs/general/first-steps.md" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/docs/general/first-steps.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/docs/general/welcome.md" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/docs/general/welcome.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/docs/index.yml" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/docs/index.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/jsdoc.json" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/jsdoc.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/package.json" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/client.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/argument.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/argument.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/base.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/commands/disable.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/commands/disable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/commands/enable.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/commands/enable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/commands/groups.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/commands/groups.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/commands/load.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/commands/load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/commands/reload.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/commands/reload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/commands/unload.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/commands/unload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/group.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/group.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/message.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/util/eval.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/util/eval.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/util/help.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/util/help.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/util/ping.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/util/ping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/util/prefix.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/commands/util/prefix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/dispatcher.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/dispatcher.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/errors/command-format.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/errors/command-format.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/errors/friendly.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/errors/friendly.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/extensions/guild.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/extensions/guild.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/index.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/providers/base.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/providers/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/providers/helper.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/providers/helper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/providers/sqlite.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/providers/sqlite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/registry.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/registry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/base.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/boolean.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/boolean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/channel.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/channel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/float.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/float.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/integer.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/integer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/member.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/member.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/message.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/role.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/role.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/string.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/string.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/user.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/types/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/util.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/src/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/test/bot.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/test/bot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/test/commands/math/add.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/test/commands/math/add.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/test/commands/util/split.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/test/commands/util/split.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js-commando/test/commands/util/user-info.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js-commando/test/commands/util/user-info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/.eslintrc.json" afterPath="$PROJECT_DIR$/node_modules0/discord.js/.eslintrc.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/.npmignore" afterPath="$PROJECT_DIR$/node_modules0/discord.js/.npmignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/.tern-project" afterPath="$PROJECT_DIR$/node_modules0/discord.js/.tern-project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/.travis.yml" afterPath="$PROJECT_DIR$/node_modules0/discord.js/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/LICENSE" afterPath="$PROJECT_DIR$/node_modules0/discord.js/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/README.md" afterPath="$PROJECT_DIR$/node_modules0/discord.js/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/docs/README.md" afterPath="$PROJECT_DIR$/node_modules0/discord.js/docs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/docs/examples/avatars.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/docs/examples/avatars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/docs/examples/ping.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/docs/examples/ping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/docs/examples/webhook.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/docs/examples/webhook.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/docs/general/faq.md" afterPath="$PROJECT_DIR$/node_modules0/discord.js/docs/general/faq.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/docs/general/updating.md" afterPath="$PROJECT_DIR$/node_modules0/discord.js/docs/general/updating.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/docs/general/welcome.md" afterPath="$PROJECT_DIR$/node_modules0/discord.js/docs/general/welcome.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/docs/index.yml" afterPath="$PROJECT_DIR$/node_modules0/discord.js/docs/index.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/package.json" afterPath="$PROJECT_DIR$/node_modules0/discord.js/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/Client.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/Client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/ClientDataManager.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/ClientDataManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/ClientDataResolver.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/ClientDataResolver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/ClientManager.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/ClientManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/WebhookClient.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/WebhookClient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/ActionsManager.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/ActionsManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/ChannelCreate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/ChannelCreate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/ChannelDelete.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/ChannelDelete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/ChannelUpdate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/ChannelUpdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildDelete.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildDelete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildEmojiCreate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildEmojiCreate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildEmojiDelete.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildEmojiDelete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildEmojiUpdate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildEmojiUpdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildMemberGet.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildMemberGet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildMemberRemove.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildMemberRemove.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildRoleCreate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildRoleCreate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildRoleDelete.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildRoleDelete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildRoleUpdate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildRoleUpdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildRolesPositionUpdate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildRolesPositionUpdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildSync.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildSync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildUpdate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/GuildUpdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageCreate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageCreate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageDelete.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageDelete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageDeleteBulk.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageDeleteBulk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageReactionAdd.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageReactionAdd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageReactionRemove.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageReactionRemove.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageReactionRemoveAll.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageReactionRemoveAll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageUpdate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/MessageUpdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/UserGet.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/UserGet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/UserUpdate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/actions/UserUpdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/APIRequest.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/APIRequest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/RESTManager.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/RESTManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/RequestHandlers/Burst.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/RequestHandlers/Burst.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/RequestHandlers/RequestHandler.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/RequestHandlers/RequestHandler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/RequestHandlers/Sequential.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/RequestHandlers/Sequential.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/UserAgentManager.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/rest/UserAgentManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/ClientVoiceManager.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/ClientVoiceManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/VoiceConnection.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/VoiceConnection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/VoiceUDPClient.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/VoiceUDPClient.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/VoiceWebSocket.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/VoiceWebSocket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/dispatcher/StreamDispatcher.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/dispatcher/StreamDispatcher.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/opus/BaseOpusEngine.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/opus/BaseOpusEngine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/opus/NodeOpusEngine.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/opus/NodeOpusEngine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/opus/OpusEngineList.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/opus/OpusEngineList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/opus/OpusScriptEngine.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/opus/OpusScriptEngine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/player/AudioPlayer.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/player/AudioPlayer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/receiver/VoiceReadable.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/receiver/VoiceReadable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/receiver/VoiceReceiver.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/receiver/VoiceReceiver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/util/SecretKey.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/voice/util/SecretKey.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/WebSocketManager.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/WebSocketManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/WebSocketPacketManager.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/WebSocketPacketManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/GuildCreate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/GuildCreate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/GuildEmojisUpdate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/GuildEmojisUpdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/GuildMembersChunk.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/GuildMembersChunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/MessageCreate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/MessageCreate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/MessageDelete.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/MessageDelete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/MessageDeleteBulk.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/MessageDeleteBulk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/MessageReactionAdd.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/MessageReactionAdd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/MessageReactionRemove.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/MessageReactionRemove.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/PresenceUpdate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/PresenceUpdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/Ready.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/Ready.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/TypingStart.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/TypingStart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/VoiceStateUpdate.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/client/websocket/packets/handlers/VoiceStateUpdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/index.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/sharding/Shard.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/sharding/Shard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/sharding/ShardClientUtil.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/sharding/ShardClientUtil.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/sharding/ShardingManager.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/sharding/ShardingManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Channel.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Channel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/ClientUser.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/ClientUser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/DMChannel.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/DMChannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Emoji.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Emoji.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/GroupDMChannel.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/GroupDMChannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Guild.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Guild.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/GuildChannel.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/GuildChannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/GuildMember.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/GuildMember.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Invite.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Invite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Message.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/MessageAttachment.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/MessageAttachment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/MessageCollector.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/MessageCollector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/MessageEmbed.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/MessageEmbed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/MessageReaction.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/MessageReaction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/OAuth2Application.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/OAuth2Application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/PartialGuild.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/PartialGuild.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/PartialGuildChannel.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/PartialGuildChannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/PermissionOverwrites.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/PermissionOverwrites.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Presence.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Presence.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/ReactionEmoji.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/ReactionEmoji.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Role.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Role.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/TextChannel.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/TextChannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/User.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/User.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/UserConnection.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/UserConnection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/UserProfile.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/UserProfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/VoiceChannel.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/VoiceChannel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Webhook.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/structures/Webhook.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/util/Collection.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/util/Collection.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/src/util/Constants.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/src/util/Constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/test/random.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/test/random.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/test/shard.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/test/shard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/test/sharder.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/test/sharder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/test/webpack.html" afterPath="$PROJECT_DIR$/node_modules0/discord.js/test/webpack.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules0/discord.js/webpack.config.js" afterPath="$PROJECT_DIR$/node_modules0/discord.js/webpack.config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swarmiobot.js" afterPath="$PROJECT_DIR$/swarmiobot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/module.inc.antispam.js" afterPath="$PROJECT_DIR$/util/module.inc.antispam.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/module.inc.mute.js" afterPath="$PROJECT_DIR$/util/module.inc.mute.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -281,88 +29,46 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="swarmiobot.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swarmiobot.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2706">
-              <caret line="28" column="48" lean-forward="false" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="giveMute.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commando/random/giveMute.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dice_roll.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commando/random/dice_roll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="3" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.inc.mute.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/util/module.inc.mute.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.inc.antispam.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/module.inc.antispam.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="122" column="13" lean-forward="false" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/settings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="warn.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commando/random/warn.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="swarmiobot.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/swarmiobot.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1043">
+                  <caret line="182" column="19" lean-forward="false" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="help.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/commando/random/help.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="417">
+                  <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="giveMute.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/commando/random/giveMute.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-128">
+                  <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -384,6 +90,9 @@
       <find>DM</find>
       <find>warn</find>
       <find>&quot;discord.js&quot;: &quot;^11.1.0&quot;</find>
+      <find>help</find>
+      <find>bot</find>
+      <find>commands</find>
     </findStrings>
     <replaceStrings>
       <replace>purge</replace>
@@ -404,14 +113,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/commando/random/purge.js" />
-        <option value="$PROJECT_DIR$/node_modules/discord.js-commando/src/client.js" />
-        <option value="$PROJECT_DIR$/config/settings.json" />
-        <option value="$PROJECT_DIR$/config/strings.json" />
         <option value="$PROJECT_DIR$/commando/random/warn.js" />
         <option value="$PROJECT_DIR$/util/module.inc.mute.js" />
-        <option value="$PROJECT_DIR$/swarmiobot.js" />
         <option value="$PROJECT_DIR$/util/module.inc.antispam.js" />
         <option value="$PROJECT_DIR$/commando/random/giveMute.js" />
+        <option value="$PROJECT_DIR$/node_modules/discord.js-commando/src/client.js" />
+        <option value="$PROJECT_DIR$/config/auth.json" />
+        <option value="$PROJECT_DIR$/config/settings.json" />
+        <option value="$PROJECT_DIR$/config/strings.json" />
+        <option value="$PROJECT_DIR$/swarmiobot.js" />
+        <option value="$PROJECT_DIR$/commando/random/help.js" />
       </list>
     </option>
   </component>
@@ -439,11 +150,11 @@
     <handled-path value="$PROJECT_DIR$/node_modules0/regjsparser/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules0/sshpk/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="6" />
     <option name="width" value="1299" />
-    <option name="height" value="736" />
+    <option name="height" value="764" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -461,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -487,15 +197,11 @@
               <item name="ServerManagerBot" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ServerManagerBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServerManagerBot" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -946,7 +652,10 @@
       <workItem from="1500383785632" duration="597000" />
       <workItem from="1500384555514" duration="14120000" />
       <workItem from="1500483587970" duration="4230000" />
-      <workItem from="1500561659558" duration="6036000" />
+      <workItem from="1500561659558" duration="7079000" />
+      <workItem from="1500574462283" duration="10796000" />
+      <workItem from="1500989307977" duration="5000" />
+      <workItem from="1500992520564" duration="5319000" />
     </task>
     <task id="LOCAL-00001" summary="Added more functionality to the mute, clears log after a certain amount of time, and a muted timer.">
       <created>1498668650835</created>
@@ -966,7 +675,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116287000" />
+    <option name="totallyTimeSpent" value="133450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -978,7 +687,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="24" width="1299" height="736" extended-state="0" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -993,7 +702,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18754987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19601594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1035,9 +744,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32352942" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.281493" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16972111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19043824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1065,43 +774,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/util/module.inc.mute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commando/random/giveMute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swarmiobot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/module.inc.mute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commando/random/warn.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,31 +948,10 @@
     <entry file="file://$PROJECT_DIR$/util/module.inc.antispam.js" />
     <entry file="file://$PROJECT_DIR$/config/strings.json" />
     <entry file="file://$PROJECT_DIR$/util/module.inc.mute.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/discord.js-commando/src/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/discord.js-commando/src/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="69" column="58" lean-forward="false" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commando/random/minecraft.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-486">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/discord.js-commando/src/registry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="172" column="20" lean-forward="false" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1313,21 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/strings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1338,19 +976,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/settings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commando/random/dice_roll.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1358,38 +987,107 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="3" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swarmiobot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2706">
-          <caret line="28" column="48" lean-forward="false" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commando/random/giveMute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/module.inc.antispam.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="2196">
           <caret line="122" column="13" lean-forward="false" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/module.inc.mute.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/discord.js-commando/src/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/discord.js-commando/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/discord.js-commando/src/dispatcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="139" column="37" lean-forward="false" selection-start-line="139" selection-start-column="33" selection-end-line="139" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/discord.js-commando/src/commands/util/help.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1154">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/discord.js-commando/src/registry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="172" column="20" lean-forward="false" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/discord.js-commando/src/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/strings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commando/random/giveMute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swarmiobot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1043">
+          <caret line="182" column="19" lean-forward="false" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commando/random/help.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding />
         </state>
       </provider>
