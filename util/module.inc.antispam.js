@@ -48,7 +48,7 @@ module.exports = () => {
     };
 
     module.isMessage = (str) => {
-        return new RegExp("([a-zA-Z0-9_])").test(String(str));
+        return new RegExp("([a-zA-Z0-9])").test(String(str));
     };
 
     /**
@@ -114,11 +114,11 @@ module.exports = () => {
         let count = 0;
         const words = message.split(" ");
         words.forEach((word) => {
-            for (var x = 0, y = 1; y < words.length; x++, y++)
-            {
-                if (words[x] === words[y])
-                {
-                    count++;
+            if(module.isMessage(word)) {
+                for (var x = 0, y = 1; y < words.length; x++, y++) {
+                    if (words[x] === words[y]) {
+                        count++;
+                    }
                 }
             }
         });
@@ -186,6 +186,7 @@ module.exports = () => {
                     spam = false;
                     messageObject.reply(Strings.util.antispam.warning_0);
                     console.log(`Warned an user (${messageObject.member.user.username}) about spamming.`)
+
                 }
             }
         }
@@ -199,3 +200,5 @@ module.exports = () => {
 
     return module;
 };
+
+//BTS20

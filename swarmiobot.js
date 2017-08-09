@@ -131,7 +131,7 @@ client.on('message', Message => {
 
                         setTimeout(() => {
                             AntiSpam.clearUserHistory(sourceId, Message.author.id);
-                        },300000);
+                        },60000);
                     }
             }
 
@@ -176,17 +176,16 @@ client.on('message', Message => {
 bot.registry
     .registerDefaultTypes()
     .registerGroups([
-        ['random', 'Random']
+        ['random', 'Random'],
+        ['admin', 'Admin Commands']
     ])
     .registerDefaultGroups()
-    .registerDefaultCommands({
-        help: false
-    })
+    .registerDefaultCommands()
     .registerCommandsIn(path.join(__dirname, 'commando'));
 
 bot.on('ready', () => {
     console.log('Logged in!');
-    bot.user.setGame('Game');
+    bot.user.setGame('League');
 });
 
 
