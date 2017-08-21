@@ -1,7 +1,7 @@
 {
   "guilds": {
     "_comment": "THis is for the test discord server",
-    "277146905631391746": {
+    "307184039972962304": {
       "enable_anti_spam_filtering": true,
       "enable_quiet_mode": true,
       "enable_client_commands": true,
@@ -9,6 +9,7 @@
       "anti_spam_log_length": 0,
       "anti_spam_max_identical_urls_in_message": 2,
       "anti_spam_max_identical_messages_in_message": 3,
+      "anti_spam_max_allcaps_in_total": 5,
       "anti_spam_max_identical_urls_in_total": 3,
       "anti_spam_max_identical_messages_total": 8,
       "anti_spam_safe_url_suffixes": ["com", "net", "org", "gov", "edu"],

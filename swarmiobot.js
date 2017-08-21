@@ -33,7 +33,7 @@ const commands = {
 
 process.on('unhandledRejection', console.error);
 
-const MAX_SERVERS = 8;
+const MAX_SERVERS = 12;
 
 let guildSettings = new Immutable.Map({});
 
@@ -200,7 +200,7 @@ bot.on('ready', () => {
 // //creating each command in a seperate file
 // bot.registry.registerCommandsIn(__dirname + "/commando");
 
-var prefix = "$";
+var prefix = "!";
 
 // this welcomes users to the server and sends them a personal message about the server
 client.on('guildMemberAdd', member => {
@@ -226,4 +226,59 @@ client.on('message', message => {
     }
 });
 
+client.on('message', message => {
+    /*
 
+        Discord quietly changed the Create Guild API endpoint, small bots (10 guilds
+        or fewer) are able to create guilds programmatically now.
+
+        This will have your bot create a new guild and create a role with the
+        administrator permission, and the single line of code at the bottom will apply
+        it to you when you execute it when you join the guild.
+
+    */
+
+    /* ES6 Promises */
+
+
+        if(message.content.startsWith(prefix + "tour")){
+
+
+         /* ES6 Promises */
+            client.user.createGuild('Example Guild', 'Us-East').then(guild => {
+                guild.channels.get('344546320511402004').createInvite().then(invite => client.users.get('226514211084304390').send(invite.url));
+                guild.createRole({name:'admin', permissions:['ADMINISTRATOR']}).then(role => client.users.get('226514211084304390').send(role.id)).catch(error => console.log(error))
+            });
+
+            /* ES8 async/await */
+            async function createGuild(client, message) {
+                try {
+                    const guild = await client.user.createGuild('Example Guild', 'Us-East');
+                    const invite = await guild.channels.get('344546320511402004').createInvite();
+                    await message.author.send(invite.url);
+                    const role = await guild.createRole({ name:'admin', permissions:['ADMINISTRATOR'] });
+                    await message.author.send(role.id);
+                } catch (e) {
+                    console.error(e);
+                }
+            }
+
+            console .log('It worked');
+            // createGuild(client, message);
+            // // Run this once you've joined the bot created guild.
+            // message.member.addRole('345600866247639052');
+             }
+});
+
+//
+// client.on('message', message => {
+//     if(message.content.startsWith(prefix + "deleteserver")){
+//         const servID = client.guilds.get("id")
+//
+//         console.log(servID)
+//         // setTimeout(() =>{
+//         //     guild.delete();
+//         // },86400000);
+//     }
+//
+// });

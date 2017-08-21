@@ -51,6 +51,10 @@ module.exports = () => {
         return new RegExp("([a-zA-Z0-9])").test(String(str));
     };
 
+    module.isAllCaps = (str) => {
+        return new RegExp("([A-Z])").test(String(str));
+    };
+
     /**
      * Returns a count of identical links in a single message.
      * @param message
@@ -126,6 +130,27 @@ module.exports = () => {
     };
 
     /**
+     * Returns a count of identical words in a single message.
+     * @param message
+     * @returns {R|number|*|any|any|number|*|R}
+     */
+    module.getAllCapsMessage = (message) => {
+        const message1 = [];
+        let count = 0;
+        const words = message.split("");
+        words.forEach((word) => {
+            if(module.isAllCaps(word)) {
+                for (var x = 0, y = 1; y < words.length; x++, y++) {
+                    if (words[x] === words[y]) {
+                        count++;
+                    }
+                }
+            }
+        });
+        return count;
+    };
+
+    /**
      * Clears user's history.
      * @param gId
      * @param uId
@@ -173,6 +198,7 @@ module.exports = () => {
             spam = module.getMessageIdenticalLinksCount(message) > settingsContainer['anti_spam_max_identical_urls_in_message'] ||
                 module.getMessageIdenticalMessagesCount(message) > settingsContainer['anti_spam_max_identical_messages_in_message'] ||
                 module.getTotalIdenticalLinksCount(userLog) > settingsContainer['anti_spam_max_identical_urls_in_total'] ||
+                module.getAllCapsMessage(userLog) > settingsContainer['anti_spam_max_allcaps_in_total'] ||
                 module.getTotalIdenticalMessagesCount(userLog) > settingsContainer['anti_spam_max_identical_messages_total'];
         }
 

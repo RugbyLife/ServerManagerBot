@@ -18,7 +18,7 @@ module.exports = class admin extends Command{
 
     async run(message){
 
-        message.guild.channels.get('344546320511402004').send(`${message.member.user.username} needs help`);
+        message.guild.channels.get('344546320511402004').send(`@ ${message.member.displayName   } needs help`);
     }
 
 
